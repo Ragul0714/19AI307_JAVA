@@ -24,23 +24,47 @@ b)	Call the 'calculateArea' method on the 'rectangle' object
  ```
 /*
 Program to implement a User Defined Method using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Swetha A
+RegisterNumber:  212224040343
 */
 ```
 
 ## Sourcecode.java:
 
 
+```
+import java.util.Scanner;
 
+public class AverageArray {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        int sum = 0;
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+            sum += arr[i];
+        }
+
+        double avg = (double) sum / n;
+        System.out.printf("The average of elements is %.2f\n", avg);
+    }
+}
+
+
+
+```
 
 
 
 
 ## OUTPUT:
 
-
+<img width="832" height="587" alt="514205861-41d1739f-9cf5-4171-a910-eb76447975b3" src="https://github.com/user-attachments/assets/44828902-5b7c-46e7-bad3-8e08a9518935" />
 
 ## RESULT:
 Thus, the Java program to print area of rectangle by defining instance method and local variable value as 10,20 was created successfully.
+
 
