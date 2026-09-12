@@ -24,17 +24,44 @@ b)	If the condition is false, print "false" using the 'print' method of 'System.
  ```
 /*
 Program to implement a variable and operators using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Swetha A
+RegisterNumber: 212224040343 
 */
 ```
 
 ## Sourcecode.java:
 
 
+```
+import java.util.Scanner;
+
+public class ExamRoomAllotment {
+    public static void main(String[] args) {
+     
+        Scanner sc = new Scanner(System.in);
+        int n=sc.nextInt();
+        if(n%3==0 &&n%5==0)
+        {
+            System.out.print("Skipped");
+        }
+        else if(n%3==0)
+        {
+            System.out.print("Beware!");
+        }
+        else if(n%5==0)
+        {
+            System.out.print("Blessings!");
+        }
+        else
+        {
+            System.out.print("Floor "+n);
+        }
+    }
+}
+ 
 
 
-
+```
 
 
 ## OUTPUT:
