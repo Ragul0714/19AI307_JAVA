@@ -22,20 +22,44 @@ III.	Call the displayDetails() method for each student.
  ```
 /*
 Program to implement a Static Variable using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Swetha A
+RegisterNumber:  212224040343
 */
 ```
 
 ## Sourcecode.java:
 
 
+```
 
+import java.util.Scanner;
+
+public class ReverseString {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String input = sc.nextLine();
+
+        String reversed = "";
+        for (int i = input.length() - 1; i >= 0; i--) {
+            reversed += input.charAt(i);
+        }
+
+        System.out.println("Reversed string: " + reversed);
+        sc.close();
+    }
+}
+
+
+
+```
 
 
 
 
 ## OUTPUT:
+
+<img width="695" height="355" alt="514207258-110b52e2-3378-4756-85e7-ecb58ad8f1ea" src="https://github.com/user-attachments/assets/9504dd54-387c-4920-a032-f25bac63eac4" />
 
 
 
