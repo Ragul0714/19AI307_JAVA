@@ -21,23 +21,45 @@ b.	If false, print 'num' followed by " is Non-Zero"
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Swetha A
+RegisterNumber:  212224040343
 */
 ```
 
 ## Sourcecode.java:
 
+```
 
+import java.util.Scanner;
+
+public class Factorial {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int n = scanner.nextInt(); 
+        long factorial = 1; 
+        for (int i = 1; i <= n; i++) {
+            factorial *= i;
+        }
+
+        System.out.println("Factorial of " + n + " is: " + factorial);
+    }
+}
+
+
+
+```
 
 
 
 
 
 ## OUTPUT:
+<img width="728" height="348" alt="514199402-302442f5-3d94-46af-a727-f08efcee5def" src="https://github.com/user-attachments/assets/7410422e-a0d6-463f-97e6-cabc82dceb5f" />
 
 
 
 ## RESULT:
 Thus, the Java program to check given number is zero or not was created successfully.
+
 
