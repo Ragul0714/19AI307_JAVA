@@ -17,8 +17,8 @@ To write a Java program that reads an array size and elements from the user and 
 ## PROGRAM:
  ```
 Program to implement a Single Array using Java
-Developed by: Swetha A
-RegisterNumber:  212224040343
+Developed by: RAGUL K
+RegisterNumber: 212224040258
 */
 ```
 
