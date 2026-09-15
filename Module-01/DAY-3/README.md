@@ -1,106 +1,54 @@
-# Ex.No:2(C) ACCESS SPECIFIERS
-
-## QUESTION:
-Write a Java program to create a class called Person with private instance variables name, age. and country. Provide public getter and setter methods to access and modify these variables.
-
+# Ex.No:1(C) CONTROL STATEMENTS
 
 ## AIM:
-To write a Java program that defines a class Person with private variables and provides public getter and setter methods for encapsulation.
+To develop a Java program to check given number is zero or not.
 
 ## ALGORITHM :
 1.	Start the program.
-2.	Import the necessary package 'java.util'
-3. Create a class Person with private variables name, age, and country
-4. Define public getter and setter methods for each variable.
-5. In main(), create a Person object and set values using setters.
-6. Retrieve and display values using getters.
-7. End the program.
-
-
-
-
-
+2.	Declare an integer variable 'num'
+3.	Create a Scanner object 'sc' to read input from the user
+4.	Read an integer input from the user and store it in 'num'
+5.	Check if 'num' is equal to 0:
+a.	If true, print "Given number is Zero"
+b.	If false, print 'num' followed by " is Non-Zero"
+6.	End
 
 ## PROGRAM:
  ```
 /*
-Program to implement a Access Specifiers using Java
-Developed by:  DHIREN D
-RegisterNumber: 212225040074
-
-
+Program to implement a class & objects using Java
+Developed by: MOHAMMED SAFI F
+RegisterNumber: 212224060156
 */
 ```
 
-## SOURCE CODE:
+## Sourcecode.java:
 
 ```
 import java.util.Scanner;
 
-class Person {
-    private String name;
-    private int age;
-    private String country;
-
-    public String getName() {
-        return name;
-    }
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-    public void setCountry(String country) {
-        this.country = country;
+public class Demo
+{
+    public static void main(String[] args)
+    {
+       Scanner sc=new Scanner(System.in);
+       int num=sc.nextInt();
+        if(num==0)
+        System.out.println("Given number is Zero");
+        else
+        {
+        	 System.out.println(num+ " is Non-Zero");
+        }
     }
 }
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        Person p = new Person();
-
-        String name = sc.nextLine();
-        int age = sc.nextInt();
-        sc.nextLine(); // consume newline
-        String country = sc.nextLine();
-
-        p.setName(name);
-        p.setAge(age);
-        p.setCountry(country);
-
-        // Print heading before details
-        System.out.println("Person 1");
-        System.out.println("Name: " + p.getName());
-        System.out.println("Age: " + p.getAge());
-        System.out.println("Country: " + p.getCountry());
-
-        sc.close();
-    }
-}
 ```
-
-
-
-
 
 ## OUTPUT:
 
-<img width="1140" height="654" alt="image" src="https://github.com/user-attachments/assets/d9cffbf8-79b2-493c-813a-eadd64aa66c3" />
-
+<img width="504" alt="image" src="https://github.com/user-attachments/assets/9b9a2b38-6e99-4eba-b01f-e2e592e15150" />
 
 ## RESULT:
-The program successfully demonstrates encapsulation using getter and setter methods in Java.
 
-
-
+Thus, the Java program to check given number is zero or not was created successfully.
