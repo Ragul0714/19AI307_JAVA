@@ -22,8 +22,8 @@ To create a java program that returns the sum of all the values in a 2D array.
  ```
 /*
 Program to implement a Single Array using Java
-Developed by: Swetha A
-RegisterNumber:  212224040343
+Developed by: RAGUL K
+RegisterNumber: 212224040258
 */ 
 
 ```
